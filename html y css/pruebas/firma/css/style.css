@@ -1,0 +1,34 @@
+
+
+body{
+    background-color: #ac8cd6;
+    font: 300 14px;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 40px;}
+
+h3{
+    font-size: 26px;
+    line-height: 26px;
+}
+
+p{
+    text-align: justify;
+}
+
+.seccion{
+    padding-left: 10px;
+    
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+}
+
+#sobre_mi{
+    border-top: 3px solid #d41d1d;
+}
+

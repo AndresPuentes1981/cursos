@@ -1,0 +1,68 @@
+*CSS general de elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font: 200 14px 'Poppins', 'sans-serif';
+    
+    
+    
+}
+section{
+    padding: 10px 100px 10px 100px;
+}
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+h3 {
+    color: #888;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+p{
+    text-align: justify;
+
+}
+
+cite{
+    font-weight: 300;
+}
+
+i{
+    font-size: 24px;
+}
+
+i:hover{
+    color:#ffc900
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:any-link{
+    color: white;
+}
+
+a:-webkit-any-link{
+    color: white;
+}
+a:-moz-any-link{
+    color: white;
+}
+a:hover{
+    color: #ffc900;
+}
