@@ -185,3 +185,88 @@ button{
     padding: 5px;
 }
 
+/*Grid experiencia*/
+
+.gridexp{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.cardexp{
+
+    background-color: #222;
+
+    border-radius: 15px;
+
+    color: white;
+
+    padding: 10px 15px;
+
+}
+
+.cardexp h2{
+
+    margin-bottom: 5px;
+
+}
+
+.cardexp h3{
+
+    margin-bottom: 20px;
+
+}
+
+.cardexp p{
+
+    margin-bottom: 20px;
+
+}
+
+.cardexp ul{
+
+    display: flex;
+
+    justify-content: flex-end;
+
+}
+
+.cardexp li{
+
+    height: 30px;
+
+}
+
+#contactar{
+    background-color: #ffc900;
+    color: #222;
+    font-weight: 400;
+}
+
+/*Formulario*/
+
+.itemform{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.itemform label{
+    font-weight: 700;
+}
+
+.itemform input, .itemform textarea{
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+input[type="submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
